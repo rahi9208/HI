@@ -6,7 +6,7 @@ exports.handler = function (event, context, callback) {
 	console.error(event);
 	ddb.get({
 		TableName: 'jkjk',
-		Key: { 'jkjk': 'kls' }
+		Key: { 'jkjk': 'kls  ' }
 	}, function (err, data) {
 		if (err) {
 			//handle error
@@ -15,5 +15,5 @@ exports.handler = function (event, context, callback) {
 		}
 	});
 
-	callback(null, "OKay Test Go eh2");
+	callback(null, "OKay Test Go eh2 okay");
 }
