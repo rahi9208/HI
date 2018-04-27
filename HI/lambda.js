@@ -15,5 +15,5 @@ exports.handler = function (event, context, callback) {
 		}
 	});
 
-	callback(null, "OKay Test Go eh2"+$);
+	callback(null, "OKay Test Go eh2");
 }
