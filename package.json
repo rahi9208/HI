@@ -1,8 +1,7 @@
 {
-  "name": "HI",
+  "name": "Hi",
   "version": "1.0.0",
   "dependencies": {
-    "aws-sdk": "2.176.0",
-    "lodash": "4.17.10"
+    "aws-sdk": "2.176.0"
   }
 }
