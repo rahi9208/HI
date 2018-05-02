@@ -12,7 +12,7 @@ exports.handler = function (event, context, callback) {
 		}
 	});
 
-	console.log("Log from other region");
+	console.log("Log from other regions");
 
 	callback(null, 'Successfully executed');
 }
