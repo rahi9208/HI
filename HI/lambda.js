@@ -5,5 +5,5 @@ exports.handler = function (event, context, callback) {
 
 
 
-	callback(null, 'Successfully executed');
+	callback(null, 'Successfully executed X');
 }
